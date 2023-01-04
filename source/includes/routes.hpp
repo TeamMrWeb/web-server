@@ -1,5 +1,5 @@
 /**
- * @file routes.h
+ * @file routes.hpp
  * @brief Routes headers management file for the website server.
 */
 

@@ -1,5 +1,5 @@
 /**
- * @file response.h
+ * @file response.hpp
  * @brief Response component for the website server.
 */
 

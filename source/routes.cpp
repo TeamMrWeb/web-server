@@ -1,5 +1,5 @@
 /**
- * @file routes.c
+ * @file routes.cpp
  * @brief This file contains routes logic for the web server.
 */
 
@@ -9,6 +9,11 @@
 #include <string.h>
 #include <stdio.h>
 
+/**
+ * This method just initiliaze the route.
+ * @param key Route key.
+ * @param value Route value representation.
+*/
 struct route * InitiliazeRoute(char* key, char* value)
 {
     struct route * tmp = (struct route *) malloc(sizeof(struct route));

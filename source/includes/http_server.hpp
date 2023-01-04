@@ -1,5 +1,5 @@
 /**
- * @file http_server.h
+ * @file http_server.hpp
  * @brief HTTP server component for the website server.
 */
 
