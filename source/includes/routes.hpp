@@ -22,3 +22,7 @@ struct route
 };
 
 struct route * InitiliazeRoute(char* key, char* value);
+struct route * AddRoute(struct route * __parent, char* key, char* value);
+struct route * SearchRoute(struct Route * __parent, char* key);
+
+void InOrder(struct route * _parent);
